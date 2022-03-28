@@ -3,7 +3,11 @@ import React from 'react';
 type Props = {};
 
 const Experience = (props: Props) => {
-  return <div>Experience</div>;
+  return (
+    <section id='experience' className='min-h-screen'>
+      Experience
+    </section>
+  );
 };
 
 export default Experience;

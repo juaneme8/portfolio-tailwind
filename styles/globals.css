@@ -10,7 +10,8 @@ html{
 }
 
 body{
-  background-image: url('/assets/bg-texture.png')
+  background: #1f2937;
+  background-image: url('/assets/images/bg-texture.png');
 }
 
 ::-webkit-scrollbar {

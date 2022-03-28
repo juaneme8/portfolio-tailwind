@@ -18,7 +18,7 @@ const Home: NextPage = () => {
         <meta name='description' content='This is my portfolio using Next.js and TailwindCSS' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <main className='bg-gray-800'>
+      <main className='text-white'>
         <Header />
         <Nav />
         <About />
