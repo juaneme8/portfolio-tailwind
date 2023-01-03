@@ -1,7 +1,7 @@
 import React from 'react';
 import CallToAction from './CallToAction';
 import HeaderSocials from './HeaderSocials';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 type Props = {};
 
 const Header = (props: Props) => {
