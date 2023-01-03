@@ -1,7 +1,7 @@
 import React from 'react';
 import CallToAction from './CallToAction';
 import HeaderSocials from './HeaderSocials';
-import Image from "next/legacy/image";
+import Image from "next/image";
 type Props = {};
 
 const Header = (props: Props) => {
@@ -14,7 +14,16 @@ const Header = (props: Props) => {
 
       <div className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 bg-gradient-to-b from-sky-400 to-transparent pt-8 px-4 rounded-t-full mt-8'>
         <div className='h-82 w-82 md:h-64 md:w-56 mx-auto truncate'>
-          <Image src='/assets/images/me.png' alt='me' width='288' height='500' objectFit='fill' />
+          <Image
+            src='/assets/images/me.png'
+            alt='me'
+            width='288'
+            height='500'
+            style={{
+              maxWidth: "100%",
+              height: "auto",
+              objectFit: "fill"
+            }} />
         </div>
       </div>
 

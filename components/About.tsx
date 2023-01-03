@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import React from 'react';
 import { FaAward } from 'react-icons/fa';
 import { FiUsers } from 'react-icons/fi';
@@ -15,7 +15,7 @@ const About = (props: Props) => {
       <div className='grid md:grid-cols-[30%_65%] grid-cols-1 md:gap-[5%] mt-2 md:mt-8'>
         <div className='bg-gradient-to-r from-transparent via-sky-400 to-transparent w-full mx-auto mt-8 mb-10 aspect-square rounded-3xl'>
           <div className='relative rotate-12 hover:rotate-0 transition duration-300 ease-in w-full aspect-square rounded-3xl truncate bg-gradient-to-tr'>
-            <Image src='/assets/images/me-about.jpg' alt='About Me' layout='fill' />
+            <Image src='/assets/images/me-about.jpg' alt='About Me' fill sizes="100vw" />
           </div>
         </div>
         <div className='flex flex-col justify-center'>
